@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: acworth-bold;
+    src: url(../fonts/acworth-bold.ttf);
+}
+
+body {
+    
+    background-image: url(../img/fondo-uno.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: acworth-bold;
+
+}
+
+/*? ----------------- HEADER ----------------- */
+header {
+    position: sticky;
+    top: 0;
+}
+
+
+header a img {
+    height: 30px;
+    width: 98,7px;
+    margin: 10px
+}
+
+.active {
+    background-color: #500d76 !important;
+}
+
+.nav-link {
+    color: #500d76;
+}
+
+.nav-link:hover {
+    color: #7d13ba;
+}
+
+
+/*? ----------------- MAIN ----------------- */
+
+
+.aboutUs h2 {
+    color: white;
+    text-align: center;
+}
+.aboutUs p {
+    color: white;
+    text-align: center;
+}
+
+
+
+.product h2 {
+    color: white;
+    text-align: center;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+}
+.botones a {
+    text-decoration: none;
+    color: #500d76;
+    background-color: white;
+    font-size: large;
+    border: 2px inset white;
+    margin-top: 15px;
+    padding: 4px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.botones a:hover {
+    background-color: #500d76;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container div:nth-child(even) {
+    background-color: white;
+    color: black;
+}
+
+.grid-container div:nth-child(even) a {
+    border: 1px solid black;
+    background-color: #500d76;
+    color: white;    
+}
+
+.grid-container div:nth-child(even) a:hover {
+    background-color: white;
+    color: #500d76;
+}
+
+
+
+.especialidad a{
+    background-color: white;
+    text-decoration: none;
+    color: #500d76;
+    padding: 8px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.especialidad a:hover {
+    background-color: #500d76;
+    color: white;
+}
+
+.especialidad {
+    text-align: center;
+    color: white;
+    border: 2px white solid;
+    width: 300px;
+    height: 350px;
+    margin: 15px;
+
+}
+
+.especialidad h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.especialidad img {
+    width: 100%;
+    height: 70%;
+    padding: 10px;
+}
+
+.turno {
+    display: flex;
+    justify-content: center;
+}
+.turno a {
+    border: 1px solid black;
+    background-color: white;
+    text-decoration: none;
+    color: #500d76;
+    padding: 8px;
+    margin: 20px;
+    text-align: center;
+}
+
+.turno a:hover {
+    background-color: #500d76;
+    color: white;
+}
+
+.work {
+    text-align: center;
+    margin: 10px;
+    padding: 7px;
+}
+
+.work h2{
+    color: white;
+    margin: 5px;
+}
+
+.work a {
+    border: 1px solid black;
+    background-color: white;
+    text-decoration: none;
+    color: #500d76;
+    font-weight: 300;
+    padding: 5px;
+    margin: 10px;
+}
+
+.work a:hover {
+    background-color: #500d76;
+    color: white;
+}
+
+.work p {
+    color: white;
+    margin: 10px;
+}
+
+.contact {
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+}
+
+.contact h2 {
+    color: white;
+    margin: 10px;
+}
+
+.contact a {
+    border: 1px solid black;
+    background-color: white;
+    text-decoration: none;
+    color: #500d76;
+    text-align: center;
+    font-weight: 300;
+    margin: 30px;
+    padding: 7px;
+}
+
+.contact a:hover {
+    background-color: #500d76;
+    color: white;
+}
+
+/*? ----------------- MAIN NOSOTROS -----------------   */
+
+.mision h1 {
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+.mision p {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+.vision h2 {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+.vision p {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+.valor h2 {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+.valor h3 {
+    text-align: center;
+    color: white;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.valor p{
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+.nosotros h2 {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+.nosotros p{
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+
+/*? ----------------- MAIN PROFESIONALES ----------------- */
+
+/* .medicos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+} */
+
+
+.grid-medicos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    align-items: center;
+    justify-content: center;
+}
+
+.clinica-siete {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.dermatologia-uno {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.psicologia-uno {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.psicologia-dos {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.alergia-uno {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.podologia-uno {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    /* margin-bottom: 10px; */
+}
+
+.obstetricia-uno {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.medicos h2 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size : x-large
+}
+
+.especialidad-profesionales img {
+    width: 80%;
+    height: 70%;
+}
+
+.especialidad-profesionales h3 {
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.especialidad-profesionales a {
+    text-decoration: none;
+    color: #500d76;
+    background-color: white;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.especialidad-profesionales a:hover {
+    background-color: #500d76;
+    color: white;
+}
+
+.especialidad-profesionales {
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*? ----------------- FOOTER ----------------- */
+
+footer {
+    background-image: url(../img/fondo-2.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    color: #500d76;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 17px
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+/*? ----------------- MEDIA QUERYS ----------------- */
+
+@media screen and (max-width : 990px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-medicos {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .psicologia-dos {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+}
+@media screen and (max-width : 655px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-medicos {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .psicologia-dos {
+        grid-column-start: 0;
+        grid-column-end: 1;
+    }
+
+}
