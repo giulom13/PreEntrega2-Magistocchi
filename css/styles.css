@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: acworth-bold;
+  src: url(../fonts/acworth-bold.ttf);
+}
+body {
+  background-image: url(../img/fondo-uno.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: acworth-bold;
+}
+
+header a img {
+  height: 30px;
+  width: 98, 7px;
+  margin: 10px;
+}
+
+.active {
+  background-color: #500d76 !important;
+}
+
+.nav-link {
+  color: #500d76;
+}
+.nav-link:hover {
+  color: #7d13ba;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-around;
+}
+.botones a {
+  text-decoration: none;
+  color: #500d76;
+  background-color: white;
+  font-size: large;
+  border: 2px inset white;
+  margin-top: 15px;
+  padding: 4px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.botones a:hover {
+  background-color: #500d76;
+  color: white;
+}
+
+.aboutUs h2 {
+  color: white;
+  text-align: center;
+}
+.aboutUs p {
+  color: white;
+  text-align: center;
+}
+
+.product h2 {
+  color: white;
+  text-align: center;
+}
+.product .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+  align-items: center;
+  justify-content: center;
+}
+.product .grid-container .especialidad {
+  text-align: center;
+  color: white;
+  border: 2px white solid;
+  width: 300px;
+  height: 350px;
+  margin: 15px;
+}
+.product .grid-container .especialidad img {
+  width: 100%;
+  height: 70%;
+  padding: 10px;
+}
+.product .grid-container .especialidad h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.product .grid-container .especialidad a {
+  background-color: white;
+  text-decoration: none;
+  color: #500d76;
+  padding: 8px;
+  margin: 20px;
+  text-align: center;
+  border: 1px solid white;
+}
+.product .grid-container .especialidad a:hover {
+  background-color: #500d76;
+  color: white;
+}
+.product .turno {
+  display: flex;
+  justify-content: center;
+}
+.product .turno a {
+  border: 1px solid black;
+  background-color: white;
+  text-decoration: none;
+  color: #500d76;
+  padding: 8px;
+  margin: 20px;
+  text-align: center;
+}
+.product .turno a:hover {
+  background-color: #500d76;
+  color: white;
+}
+
+.work {
+  text-align: center;
+  margin: 10px;
+  padding: 7px;
+}
+.work h2 {
+  color: white;
+  margin: 5px;
+}
+.work p {
+  color: white;
+  margin: 10px;
+}
+.work a {
+  border: 1px solid black;
+  background-color: white;
+  text-decoration: none;
+  color: #500d76;
+  font-weight: 300;
+  padding: 5px;
+  margin: 10px;
+}
+.work a:hover {
+  background-color: #500d76;
+  color: white;
+}
+
+.contact {
+  text-align: center;
+  margin: 15px;
+  padding: 5px;
+}
+.contact h2 {
+  color: white;
+  margin: 10px;
+}
+.contact a {
+  border: 1px solid black;
+  background-color: white;
+  text-decoration: none;
+  color: #500d76;
+  text-align: center;
+  font-weight: 300;
+  margin: 30px;
+  padding: 7px;
+}
+.contact a:hover {
+  background-color: #500d76;
+  color: white;
+}
+
+.mision h1 {
+  text-align: center;
+  color: white;
+  margin-top: 15px;
+}
+.mision p {
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+.vision h2 {
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+.vision p {
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+.valor h2 {
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+.valor div h3 {
+  text-align: center;
+  color: white;
+  margin: 10px;
+  text-decoration: underline;
+}
+.valor div p {
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+.nosotros h2 {
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+.nosotros p {
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+footer {
+  background-image: url(../img/fondo-2.jpg);
+  display: flex;
+  justify-content: space-between;
+}
+footer p {
+  color: #500d76;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 17px;
+}
+footer img {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */

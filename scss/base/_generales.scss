@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: acworth-bold;
+    src: url(../fonts/acworth-bold.ttf);
+}
+
+body {
+    
+    background-image: url(../img/fondo-uno.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: acworth-bold;
+
+}
+
+header a img {
+    height: 30px;
+    width: 98,7px;
+    margin: 10px
+}
+
+.active {
+    background-color: #500d76 !important;
+}
+
+.nav-link {
+    color: #500d76;
+    &:hover {
+        color: #7d13ba;
+    }
+}

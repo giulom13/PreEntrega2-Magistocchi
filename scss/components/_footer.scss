@@ -1,0 +1,16 @@
+footer {
+    background-image: url(../img/fondo-2.jpg);
+    display: flex;
+    justify-content: space-between;
+    p {
+        color: #500d76;
+        font-size: large;
+        font-weight: bold;
+        margin-top: 17px
+    }
+    img {
+        height: 30px;
+        width: 30px;
+        margin: 10px;
+    }
+}
