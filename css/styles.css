@@ -228,6 +228,75 @@ header {
   margin: 10px;
 }
 
+.medicos h2 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-size: x-large;
+}
+.medicos .grid-medicos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+  align-items: center;
+  justify-content: center;
+}
+.medicos .grid-medicos .especialidad-profesionales {
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+.medicos .grid-medicos .especialidad-profesionales img {
+  width: 80%;
+  height: 70%;
+}
+.medicos .grid-medicos .especialidad-profesionales h3 {
+  margin-bottom: 10px;
+  font-size: large;
+}
+.medicos .grid-medicos .especialidad-profesionales a {
+  text-decoration: none;
+  color: #500d76;
+  background-color: white;
+  border: 1px solid black;
+  padding: 3px;
+}
+.medicos .grid-medicos .especialidad-profesionales a:hover {
+  background-color: #500d76;
+  color: white;
+}
+.medicos .grid-medicos .especialidad-profesionales .clinica-siete {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.medicos .grid-medicos .especialidad-profesionales .dermatologia-uno {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.medicos .grid-medicos .especialidad-profesionales .psicologia-uno {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.medicos .grid-medicos .especialidad-profesionales .psicologia-dos {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.medicos .grid-medicos .especialidad-profesionales .alergia-uno {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.medicos .grid-medicos .especialidad-profesionales .podologia-uno {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.medicos .grid-medicos .especialidad-profesionales .obstetricia-uno {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
 footer {
   background-image: url(../img/fondo-2.jpg);
   display: flex;
