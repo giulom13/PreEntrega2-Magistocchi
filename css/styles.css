@@ -63,25 +63,21 @@ header {
 .product .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  grid-auto-rows: minmax(100px, auto);
-  align-items: center;
-  justify-content: center; }
+  gap: 20px; }
   .product .grid-container .especialidad {
     text-align: center;
     color: white;
     border: 2px white solid;
-    width: 300px;
-    height: 350px;
     margin: 15px; }
     .product .grid-container .especialidad img {
       width: 100%;
-      height: 70%;
-      padding: 10px; }
+      padding: 10px;
+      border-radius: 8px; }
     .product .grid-container .especialidad h3 {
       margin-top: 10px;
-      margin-bottom: 20px; }
+      margin-bottom: 5px; }
     .product .grid-container .especialidad a {
+      display: block;
       background-color: white;
       text-decoration: none;
       color: #500d76;
@@ -203,10 +199,8 @@ header {
   font-size: x-large; }
 
 .medicos .grid-medicos {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  grid-auto-rows: minmax(100px, auto);
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center; }
   .medicos .grid-medicos .especialidad-profesionales {
@@ -214,7 +208,8 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
-    margin: 10px; }
+    margin: 10px;
+    width: 300px; }
     .medicos .grid-medicos .especialidad-profesionales img {
       width: 80%;
       height: 70%; }
@@ -230,27 +225,6 @@ header {
       .medicos .grid-medicos .especialidad-profesionales a:hover {
         background-color: #500d76;
         color: white; }
-    .medicos .grid-medicos .especialidad-profesionales .clinica-siete {
-      grid-column-start: 2;
-      grid-column-end: 3; }
-    .medicos .grid-medicos .especialidad-profesionales .dermatologia-uno {
-      grid-column-start: 2;
-      grid-column-end: 3; }
-    .medicos .grid-medicos .especialidad-profesionales .psicologia-uno {
-      grid-column-start: 1;
-      grid-column-end: 2; }
-    .medicos .grid-medicos .especialidad-profesionales .psicologia-dos {
-      grid-column-start: 3;
-      grid-column-end: 4; }
-    .medicos .grid-medicos .especialidad-profesionales .alergia-uno {
-      grid-column-start: 2;
-      grid-column-end: 3; }
-    .medicos .grid-medicos .especialidad-profesionales .podologia-uno {
-      grid-column-start: 2;
-      grid-column-end: 3; }
-    .medicos .grid-medicos .especialidad-profesionales .obstetricia-uno {
-      grid-column-start: 2;
-      grid-column-end: 3; }
 
 footer {
   background-image: url(../img/fondo-2.jpg);
@@ -265,3 +239,19 @@ footer {
     height: 30px;
     width: 30px;
     margin: 10px; }
+
+@media screen and (max-width: 1037px) {
+  .product .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(75px, auto);
+    align-items: center;
+    justify-content: center; } }
+
+@media screen and (max-width: 450px) {
+  footer img {
+    height: 20px;
+    width: 20px; }
+  footer p {
+    font-size: medium; } }

@@ -6,10 +6,8 @@
         font-size : x-large
     }
     .grid-medicos {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        grid-auto-rows: minmax(100px, auto);
+        display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         .especialidad-profesionales {
@@ -17,7 +15,8 @@
             color: white;
             text-align: center;
             padding: 10px;
-            margin: 10px;            
+            margin: 10px;
+            width: 300px;           
             img {
                 width: 80%;
                 height: 70%;
@@ -36,34 +35,6 @@
                     background-color: #500d76;
                     color: white;
                 }
-            }
-            .clinica-siete {
-                grid-column-start: 2;
-                grid-column-end: 3;
-            }
-            .dermatologia-uno {
-                grid-column-start: 2;
-                grid-column-end: 3;
-            }
-            .psicologia-uno {
-                grid-column-start: 1;
-                grid-column-end: 2;
-            }
-            .psicologia-dos {
-                grid-column-start: 3;
-                grid-column-end: 4;
-            }
-            .alergia-uno {
-                grid-column-start: 2;
-                grid-column-end: 3;
-            }
-            .podologia-uno {
-                grid-column-start: 2;
-                grid-column-end: 3;
-            }
-            .obstetricia-uno {
-                grid-column-start: 2;
-                grid-column-end: 3;
             }
         }
     }
