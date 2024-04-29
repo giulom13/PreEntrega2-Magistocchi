@@ -43,7 +43,8 @@ header {
     margin-top: 15px;
     padding: 4px;
     text-align: center;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    border-radius: 20px; }
     .botones a:hover {
       background-color: #500d76;
       color: white; }
@@ -84,7 +85,8 @@ header {
       padding: 8px;
       margin: 20px;
       text-align: center;
-      border: 1px solid white; }
+      border: 1px solid white;
+      border-radius: 20px; }
       .product .grid-container .especialidad a:hover {
         background-color: #500d76;
         color: white; }
@@ -99,7 +101,8 @@ header {
     color: #500d76;
     padding: 8px;
     margin: 20px;
-    text-align: center; }
+    text-align: center;
+    border-radius: 20px; }
     .product .turno a:hover {
       background-color: #500d76;
       color: white; }
@@ -120,8 +123,9 @@ header {
     text-decoration: none;
     color: #500d76;
     font-weight: 300;
-    padding: 5px;
-    margin: 10px; }
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px; }
     .work a:hover {
       background-color: #500d76;
       color: white; }
@@ -141,7 +145,8 @@ header {
     text-align: center;
     font-weight: 300;
     margin: 30px;
-    padding: 7px; }
+    padding: 7px;
+    border-radius: 20px; }
     .contact a:hover {
       background-color: #500d76;
       color: white; }
@@ -221,7 +226,8 @@ header {
       color: #500d76;
       background-color: white;
       border: 1px solid black;
-      padding: 3px; }
+      padding: 7px;
+      border-radius: 20px; }
       .medicos .grid-medicos .especialidad-profesionales a:hover {
         background-color: #500d76;
         color: white; }
