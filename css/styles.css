@@ -7,6 +7,11 @@
   font-family: acworth-bold;
   src: url(../fonts/acworth-bold.ttf); }
 
+main {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; }
+
 body {
   background-image: url(../img/fondo-uno.jpg);
   background-size: cover;
@@ -29,7 +34,8 @@ header a img {
 
 header {
   position: sticky;
-  top: 0; }
+  top: 0;
+  z-index: 10; }
 
 .botones {
   display: flex;
@@ -151,6 +157,20 @@ header {
       background-color: #500d76;
       color: white; }
 
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  form label {
+    color: white;
+    font-size: larger; }
+  form input {
+    margin-bottom: 10px; }
+  form textarea {
+    margin-bottom: 10px;
+    height: 325px; }
+
 .mision h1 {
   text-align: center;
   color: white;
@@ -231,6 +251,12 @@ header {
       .medicos .grid-medicos .especialidad-profesionales a:hover {
         background-color: #500d76;
         color: white; }
+
+.mb-3 .form-label {
+  color: white; }
+
+.mb-3 .col-auto {
+  background-color: white; }
 
 footer {
   background-image: url(../img/fondo-2.jpg);

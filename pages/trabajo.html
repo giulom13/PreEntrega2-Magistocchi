@@ -58,7 +58,27 @@
         <!-- FORMULARIO PARA ENVIAR CV DE MEDICOS -->
         <!-- BOTON SUBMIT -->
 
-
+        <form action="https://formspree.io/f/xeqydepd" method="POST">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese nombre y apellido aqui" name="name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Direccion de mail</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Deja tu informacion aqui</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="formFile" class="form-label">Adjunta tu CV</label>
+            <input class="form-control" type="file" id="formFile" name="cv">
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-light mb-3">Enviar</button>
+          </div>
+        </form>
 
 
     </main>

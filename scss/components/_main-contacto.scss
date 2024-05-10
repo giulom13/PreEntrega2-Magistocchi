@@ -1,0 +1,17 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    label {
+        color: white;
+        font-size: larger;
+    }
+    input {
+        margin-bottom: 10px;
+    }
+    textarea {
+        margin-bottom: 10px;
+        height: 325px;
+    }
+}
