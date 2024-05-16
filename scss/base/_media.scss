@@ -21,3 +21,14 @@
         }
     }
 }
+@media screen and (max-width: 380px) {
+    footer {
+        img {
+            height: 15px;
+            width: 15px;
+        }
+        p {
+            font-size: small;
+        }
+    }
+}
