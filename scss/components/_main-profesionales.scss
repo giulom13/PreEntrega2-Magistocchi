@@ -29,12 +29,11 @@
                 text-decoration: none;
                 color: #500d76;
                 background-color: white;
-                border: 1px solid black;
+                border: 1px solid white;
                 padding: 7px;
                 border-radius: 20px;
                 &:hover {
-                    background-color: #500d76;
-                    color: white;
+                    @include color-botones
                 }
             }
         }

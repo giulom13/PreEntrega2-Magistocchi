@@ -1,3 +1,13 @@
+.product .turno a, .work a {
+  border: 1px solid white;
+  background-color: white;
+  text-decoration: none;
+  color: #500d76;
+  padding: 8px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 20px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -100,18 +110,9 @@ header {
 .product .turno {
   display: flex;
   justify-content: center; }
-  .product .turno a {
-    border: 1px solid white;
-    background-color: white;
-    text-decoration: none;
-    color: #500d76;
-    padding: 8px;
-    margin: 20px;
-    text-align: center;
-    border-radius: 20px; }
-    .product .turno a:hover {
-      background-color: #500d76;
-      color: white; }
+  .product .turno a:hover {
+    background-color: #500d76;
+    color: white; }
 
 .work {
   text-align: center;
@@ -123,18 +124,9 @@ header {
   .work p {
     color: white;
     margin: 10px; }
-  .work a {
-    border: 1px solid white;
-    background-color: white;
-    text-decoration: none;
-    color: #500d76;
-    font-weight: 300;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 20px; }
-    .work a:hover {
-      background-color: #500d76;
-      color: white; }
+  .work a:hover {
+    background-color: #500d76;
+    color: white; }
 
 .contact {
   text-align: center;
@@ -245,7 +237,7 @@ form {
       text-decoration: none;
       color: #500d76;
       background-color: white;
-      border: 1px solid black;
+      border: 1px solid white;
       padding: 7px;
       border-radius: 20px; }
       .medicos .grid-medicos .especialidad-profesionales a:hover {
