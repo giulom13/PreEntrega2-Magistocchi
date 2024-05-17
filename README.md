@@ -1,0 +1,1 @@
+Proyecto final del curso de CoderHouse "Desarrollo Web", en el cual comenzo desde las bases para poder culminar con la creacion desde cero de una pagina web. Se realizo en HTML, CSS y se utilizo SASS como preprocesador.
